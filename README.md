@@ -22,19 +22,19 @@ The client then reads the data from the server in blocks of the specified block 
 
 ## Getting Started
 
-To compile the entire project (both Server and Client), execute the following command in the `./code/` directory:
+To compile the entire project (both Server and Client), execute the following command in root project directory:
 
 ```bash
 make all
 ```
 
-To compile only the Server, navigate to the `./code/server/` directory and run:
+To compile only the Server, navigate to the `./server/` directory and run:
 
 ```bash
 make server
 ```
 
-To compile only the Client, navigate to the `./code/client/` directory and run:
+To compile only the Client, navigate to the `./client/` directory and run:
 
 ```bash
 make client
@@ -42,7 +42,7 @@ make client
 
 ## Executing the Server
 
-To execute the Server with default arguments, go to the `./code/server/` directory and run:
+To execute the Server with default arguments, go to the `./server/` directory and run:
 
 ```bash
 make runServer
@@ -61,7 +61,7 @@ Alternatively, you can customize the Server's execution by specifying the follow
 
 ## Executing the Client
 
-To run the Client with default arguments, go to the `./code/client/` directory and use the following command:
+To run the Client with default arguments, go to the `./client/` directory and use the following command:
 
 ```bash
 make runClient
@@ -77,7 +77,7 @@ You can also customize the Client's execution by providing the following argumen
 - `<server_port>`: The port number on which the Server is listening for incoming connections.
 - `<directory>`: The directory path (relative to the server's side) from which the Client requests files to be transferred.
 
-The files and directories received from the Server will be copied into the `./code/client/` directory.
+The files and directories received from the Server will be copied into the `./client/` directory.
 
 ## Note
 
