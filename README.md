@@ -83,4 +83,3 @@ The files and directories received from the Server will be copied into the `./cl
 
 The project implements various efficient data transfer techniques, such as using a thread pool to handle multiple clients and using a queue to manage file tasks for worker threads. Additionally, the implementation is designed to handle relative paths correctly, ensuring smooth execution on both the server and client sides.
 
-The data transfer system provides a reliable way to transfer files between a server and multiple clients, making it suitable for various applications where efficient and secure data communication is essential.
