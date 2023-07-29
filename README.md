@@ -78,8 +78,3 @@ You can also customize the Client's execution by providing the following argumen
 - `<directory>`: The directory path (relative to the server's side) from which the Client requests files to be transferred.
 
 The files and directories received from the Server will be copied into the `./client/` directory.
-
-## Note
-
-The project implements various efficient data transfer techniques, such as using a thread pool to handle multiple clients and using a queue to manage file tasks for worker threads. Additionally, the implementation is designed to handle relative paths correctly, ensuring smooth execution on both the server and client sides.
-
